@@ -25,8 +25,8 @@ jobs:
 
       - name: docker build
         run: |
-          docker build . -t mohameda008/githubapp:1.1
+          docker build . -t mohameda008/gademo:1.1
 
       - name: docker push
         run: |
-          docker push mohameda008/githubapp:1.1
+          docker push mohameda008/gademo:1.1
